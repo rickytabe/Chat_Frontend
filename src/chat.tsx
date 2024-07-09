@@ -8,7 +8,7 @@ interface Message {
   timestamp: string;
 }
 
-const socket = io('http://localhost:5000'); // Change this to your server URL
+const socket = io('https://chat-backend-vorb.onrender.com'); // Change this to your server URL
 
 const Chat: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([]);
