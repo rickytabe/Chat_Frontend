@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/https://github.com/rickytabe/Chat_Backend.git/', // Add this line
+  base: '/Chat_Frontend/', // Add this line
 })
